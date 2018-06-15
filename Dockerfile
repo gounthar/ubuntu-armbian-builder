@@ -6,4 +6,4 @@ MAINTAINER gounthar gounthar@gmail.com
 RUN apt-get update && apt-get -y install git corkscrew asciinema wget psmisc && git config --global user.email "gounthar@gmail.com" && \
  git config --global user.name "Bruno Verachten" && \
  git clone https://github.com/armbian/build && cd build
-#RUN ./compile.sh BOARD=cubietruck BRANCH=next KERNEL_ONLY=yes RELEASE=xenial
+RUN ./compile.sh BOARD=cubietruck BRANCH=next KERNEL_ONLY=yes RELEASE=xenial KERNEL_CONFIGURE=no
