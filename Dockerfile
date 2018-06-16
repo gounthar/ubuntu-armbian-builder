@@ -4,10 +4,10 @@ FROM ubuntu:xenial
 MAINTAINER gounthar gounthar@gmail.com
 
 RUN apt-get update && apt-get -y install git corkscrew asciinema wget psmisc alsa-utils apt-transport-https aptitude \ 
- armbian-firmware atril automake avahi-autoipd bash-completion bc bison blueman bluez bluez-tools bridge-utils btrfs-tools \
- build-essential ca-certificates chromium-bsu chromium-browser command-not-found console-setup cpufrequtils crda cups \
- cups-pk-helper curl dbus-x11 device-tree-compiler dialog dirmngr dnsutils dosfstools eject ethtool evtest expect f2fs-tools f3 \
- fake-hwclock fbi fbset figlet flex fping galculator gcj-jre-headless gcr geany git gnome-keyring gnome-orca gnupg2 gtk2-engines \
+ atril automake avahi-autoipd bash-completion bc bison blueman bluez bluez-tools bridge-utils btrfs-tools build-essential \
+ ca-certificates chromium-bsu chromium-browser command-not-found console-setup cpufrequtils crda cups cups-pk-helper curl \
+ dbus-x11 device-tree-compiler dialog dirmngr dnsutils dosfstools eject ethtool evtest expect f2fs-tools f3 fake-hwclock fbi \
+ fbset figlet flex fping galculator gcj-jre-headless gcr geany git gnome-keyring gnome-orca gnupg2 gtk2-engines \
  gtk2-engines-murrine gtk2-engines-pixbuf gvfs-backends gvfs-fuse haveged hdparm hexchat hostapd htop iceweasel ifenslave \
  initramfs-tools iotop iozone3 iperf3 iptables iputils-arping iw kbd language-selector-gnome leafpad less libdigest-sha-perl \
  libfuse2 libgck-1-0 libgcr-3-common libgl1-mesa-dri libgnome2-perl libgtk2.0-bin libnl-3-dev libnl-genl-3-dev libnss-myhostname \
