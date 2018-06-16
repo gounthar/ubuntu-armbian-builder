@@ -3,7 +3,9 @@ FROM ubuntu:xenial
 
 MAINTAINER gounthar gounthar@gmail.com
 
-RUN apt-get update && apt-get -y install git corkscrew asciinema wget psmisc alsa-utils apt-transport-https aptitude \ 
+ARG DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get --yes --assume-yes --force-yes install git corkscrew asciinema wget psmisc alsa-utils apt-transport-https aptitude \ 
  atril automake avahi-autoipd bash-completion bc bison blueman bluez bluez-tools bridge-utils btrfs-tools build-essential \
  ca-certificates chromium-bsu chromium-browser command-not-found console-setup cpufrequtils crda cups cups-pk-helper curl \
  dbus-x11 device-tree-compiler dialog dirmngr dnsutils dosfstools eject ethtool evtest expect f2fs-tools f3 fake-hwclock fbi \
