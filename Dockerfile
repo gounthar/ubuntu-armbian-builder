@@ -17,7 +17,7 @@ RUN apt-get update && apt-get --yes --assume-yes install git corkscrew asciinema
  nano ncurses-term net-tools netcat-openbsd network-manager network-manager-gnome network-manager-openvpn-gnome ntfs-3g \
  ntp numix-gtk-theme openssh-server p11-kit paman paprefs parted pasystray pavucontrol pavumeter pciutils \
  pluma policykit-1 policykit-1-gnome psmisc pulseaudio pulseaudio-module-bluetooth pulseaudio-module-gconf \
- pv python3-apt qrencode resolvconf rfkill rsync screen software-properties-common stress sudo sysbench sysfsutils sysstat \
+ pv python3-apt qrencode rfkill rsync screen software-properties-common stress sudo sysbench sysfsutils sysstat \
  system-config-printer-common system-config-printer-gnome thunar-volman toilet u-boot-tools \
  unattended-upgrades unicode-data unzip usbutils vim vlan wget wireless-regdb wireless-tools wpasupplicant x11-xserver-utils \
  xarchiver xfce4 xfce4-notifyd xfce4-screenshooter xfce4-terminal xfonts-base xinit xserver-xorg xserver-xorg-input-all \
